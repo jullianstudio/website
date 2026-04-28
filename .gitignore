@@ -1,0 +1,43 @@
+# Claude Code
+.claude/
+CLAUDE.md
+
+# OS - Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS - macOS (au cas où tu bosses depuis un autre PC)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dépendances (si jamais tu ajoutes du build plus tard)
+node_modules/
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.bak
+
+# Variables d'environnement (jamais sur GitHub !)
+.env
+.env.local
+.env.*.local
+
+# Fichiers de sauvegarde Webflow
+*-backup.html
+*.html.bak
