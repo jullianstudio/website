@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://www.jullianstudio.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/accueil"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.jullianstudio.com/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/music</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/music"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/musique"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/services"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/voice-for-fans</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/voice-for-fans"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/voice-for-fans-fr"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/fr/accueil</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/accueil"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/fr/musique</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/music"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/musique"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/fr/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/services"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.jullianstudio.com/fr/voice-for-fans-fr</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.jullianstudio.com/voice-for-fans"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.jullianstudio.com/fr/voice-for-fans-fr"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
