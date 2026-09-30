@@ -783,6 +783,12 @@ h2 {
   font-family: Montserrat, sans-serif;
 }
 
+.thirdpartycredit {
+  opacity: .7;
+  font-size: 11px;
+  line-height: 16px;
+}
+
 .bottom-wrapper-f16 {
   justify-content: space-between;
   align-items: flex-end;
@@ -1613,6 +1619,7 @@ h2 {
 
 .bodyfans {
   background-color: #fff;
+  /* Disco Elysium artwork © ZA/UM, credited in the page footer and legal notice */
   background-image: url('../images/Disco_Elysium_Wallpaper.webp');
   background-position: 50%;
   background-size: cover;
@@ -3180,6 +3187,76 @@ h2 {
 .servicesfr .listitem a {
   color: #e8e8e8;
   text-decoration: underline;
+}
+
+.servicesfr [id] {
+  scroll-margin-top: 110px;
+}
+
+.terms-toc {
+  columns: 2;
+  column-gap: 40px;
+}
+
+.terms-toc .listitem {
+  break-inside: avoid;
+  padding-top: 4px;
+}
+
+.terms-table {
+  color: #e8e8e8;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.terms-table th,
+.terms-table td {
+  text-align: left;
+  border: 1px solid rgba(232, 232, 232, .3);
+  padding: 8px 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .terms-toc {
+    columns: 1;
+  }
+}
+
+@media print {
+  .navbar-jullian,
+  .logodefil,
+  .footer {
+    display: none !important;
+  }
+
+  .servicesfr {
+    background: none;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .servicesfr .services,
+  .servicesfr .legal-title,
+  .servicesfr .legal-updated,
+  .servicesfr .paragraph3,
+  .servicesfr .listitem,
+  .servicesfr a,
+  .terms-table {
+    color: #000 !important;
+  }
+
+  .terms-table th,
+  .terms-table td {
+    border-color: #999;
+  }
+
+  .terms-toc {
+    display: none;
+  }
 }
 
 .embed-placeholder {

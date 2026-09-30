@@ -22,6 +22,8 @@ User-agent: cohere-ai
 User-agent: MistralAI-User
 Disallow: /legal
 Disallow: /fr/mentions-legales
+Disallow: /terms
+Disallow: /fr/conditions-generales
 Disallow: /documents/
 Allow: /
 
