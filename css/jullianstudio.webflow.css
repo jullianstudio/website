@@ -3344,3 +3344,12 @@ h2 {
     background-attachment: scroll;
   }
 }
+
+.contactinfo a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.contactinfo a:hover {
+  text-decoration: underline;
+}
