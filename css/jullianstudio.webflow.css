@@ -784,9 +784,15 @@ h2 {
 }
 
 .thirdpartycredit {
-  opacity: .7;
-  font-size: 11px;
-  line-height: 16px;
+  color: #fff;
+  opacity: .6;
+  text-align: right;
+  margin-top: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 .bottom-wrapper-f16 {
@@ -2035,6 +2041,11 @@ h2 {
     font-size: 12px;
   }
 
+  .thirdpartycredit {
+    text-align: center;
+    font-size: 11px;
+  }
+
   .link-wrapper-f16 {
     align-items: flex-end;
     font-size: 16px;
@@ -3237,6 +3248,59 @@ h2 {
     background: none;
     margin-top: 0;
     padding: 0;
+  }
+
+  .servicesfr .container {
+    background: none;
+    max-width: none;
+    margin-top: 0;
+    padding: 0 0 8px;
+  }
+
+  .servicesfr .services {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 12px;
+  }
+
+  .servicesfr h1.services {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .servicesfr .legal-title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 6px;
+    break-after: avoid;
+  }
+
+  .servicesfr .paragraph3,
+  .servicesfr .listitem,
+  .terms-table {
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+
+  .servicesfr .paragraph3 {
+    margin-bottom: 10px;
+  }
+
+  .servicesfr .listitem {
+    padding-top: 2px;
+  }
+
+  .servicesfr a {
+    text-decoration: none !important;
+  }
+
+  #withdrawal-form,
+  #formulaire-retractation {
+    break-before: page;
+  }
+
+  @page {
+    margin: 18mm 16mm;
   }
 
   .servicesfr .services,
