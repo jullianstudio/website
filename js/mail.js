@@ -3,6 +3,6 @@
 document.querySelectorAll('.js-mail').forEach(function (el) {
   var a = document.createElement('a');
   a.href = 'mailto:' + el.dataset.u + '@' + el.dataset.d;
-  a.textContent = el.dataset.u + ' @ ' + el.dataset.d;
+  a.textContent = el.dataset.u + '@' + el.dataset.d;
   el.replaceWith(a);
 });
