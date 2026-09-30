@@ -1,0 +1,6 @@
+[
+  { "location": "/legal*", "tdm-reservation": 1 },
+  { "location": "/fr/mentions-legales*", "tdm-reservation": 1 },
+  { "location": "/documents/*", "tdm-reservation": 1 },
+  { "location": "/*", "tdm-reservation": 0 }
+]

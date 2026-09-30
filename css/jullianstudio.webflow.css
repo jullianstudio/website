@@ -3159,3 +3159,188 @@ h2 {
 }
 
 
+
+.legal-title {
+  color: #e8e8e8;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.legal-updated {
+  color: #bdbdbd;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+}
+
+.servicesfr .paragraph3 a,
+.servicesfr .listitem a {
+  color: #e8e8e8;
+  text-decoration: underline;
+}
+
+.embed-placeholder {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #111;
+  background-image: linear-gradient(108deg, #002848, #45086d);
+  background-position: 50%;
+  background-size: cover;
+  border: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  padding: 16px;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.embed-placeholder:before {
+  content: "";
+  background-color: rgba(0, 0, 0, .45);
+  transition: background-color .2s;
+  position: absolute;
+  inset: 0;
+}
+
+.embed-placeholder:hover:before,
+.embed-placeholder:focus-visible:before {
+  background-color: rgba(0, 0, 0, .25);
+}
+
+.embed-placeholder > span {
+  z-index: 1;
+  position: relative;
+}
+
+.embed-play {
+  background-color: rgba(0, 0, 0, .6);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 12px;
+}
+
+.embed-play:after {
+  content: "";
+  border: 12px solid transparent;
+  border-left: 20px solid #fff;
+  border-right-width: 0;
+  margin-left: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.embed-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.embed-note {
+  opacity: .8;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.embed-placeholder.has-thumb:before {
+  background-color: transparent;
+}
+
+.embed-placeholder.has-thumb:hover:before,
+.embed-placeholder.has-thumb:focus-visible:before {
+  background-color: rgba(0, 0, 0, .15);
+}
+
+.embed-placeholder.has-thumb .embed-title,
+.embed-placeholder.has-thumb .embed-note {
+  display: none;
+}
+
+.embed-placeholder.is-card {
+  text-align: left;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 24px;
+}
+
+.embed-placeholder.is-card:before {
+  background-color: transparent;
+}
+
+.embed-placeholder.is-card:hover:before,
+.embed-placeholder.is-card:focus-visible:before {
+  background-color: rgba(255, 255, 255, .06);
+}
+
+.embed-cover {
+  z-index: 1;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 8px;
+  flex: none;
+  width: 40%;
+  max-width: 280px;
+  margin-right: 24px;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .5);
+}
+
+.embed-text {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+}
+
+.embed-placeholder.is-card .embed-title {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.embed-placeholder.is-card .embed-play {
+  flex: none;
+  margin: 0 0 0 16px;
+}
+
+.embed-text {
+  min-width: 0;
+}
+
+@media screen and (max-width: 479px) {
+  .embed-placeholder.is-card {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .embed-cover {
+    width: 50%;
+    margin: 0 0 12px;
+  }
+
+  .embed-placeholder.is-card .embed-play {
+    width: 48px;
+    height: 48px;
+    margin: 12px 0 0;
+  }
+}
+
+/* Firefox renders background-clip: text badly with a fixed background: use a scrolling one
+   there, kept pinned to the viewport by js/logo-parallax.js. */
+@supports (-moz-appearance: none) {
+  .textlogoclipping {
+    background-attachment: scroll;
+  }
+}
