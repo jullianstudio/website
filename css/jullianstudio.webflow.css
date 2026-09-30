@@ -3231,6 +3231,43 @@ h2 {
   padding: 8px 12px;
 }
 
+/* Two-column intro blocks (home "My voice", Voice for fans): align the CTA with the bottom of the photo */
+@media screen and (min-width: 768px) {
+  .columnsvo,
+  .columnsfans {
+    display: flex;
+  }
+
+  .columnsvo:before,
+  .columnsvo:after,
+  .columnsfans:before,
+  .columnsfans:after {
+    display: none;
+  }
+
+  .columnvoright,
+  .columnfansright {
+    height: auto;
+  }
+
+  .div-block-4,
+  .div-block-fans {
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+  }
+
+  .div-block-4 .button-primary.secondary,
+  .div-block-fans .button-primary-fans.secondary {
+    margin-top: auto;
+  }
+
+  .columnvoleft img,
+  .columnfansleft img {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .terms-toc {
     columns: 1;
