@@ -3565,9 +3565,16 @@ h2 {
   }
 }
 
-/* Firefox renders background-clip: text badly with a fixed background: use a scrolling one
+/* Firefox renders background-clip: text badly with a fixed background, and mobile browsers
+   (Chrome Android, Safari iOS) ignore background-attachment: fixed: use a scrolling one
    there, kept pinned to the viewport by js/logo-parallax.js. */
 @supports (-moz-appearance: none) {
+  .textlogoclipping {
+    background-attachment: scroll;
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
   .textlogoclipping {
     background-attachment: scroll;
   }
