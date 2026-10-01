@@ -1111,7 +1111,57 @@ h2 {
 }
 
 .linkblockmusic {
+  color: #fff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  width: 220px;
+  height: 72px;
+  padding: 0 22px;
+  text-decoration: none;
   transition: all .25s;
+  display: flex;
+}
+
+.platformcaption {
+  color: #ffffff9e;
+  letter-spacing: .01em;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.platformlogo {
+  width: auto;
+  max-width: 100%;
+  height: 28px;
+  display: block;
+}
+
+.platformlogo.yt {
+  height: 26px;
+}
+
+.platformlogo.am {
+  height: 28px;
+}
+
+.platformlogo.sc {
+  height: 22px;
+}
+
+.platformlogo.bc {
+  height: 24px;
+}
+
+.platformlogo.sp {
+  height: 32px;
+}
+
+.platformlogo.apple {
+  height: 58px;
 }
 
 .linkblockmusic:hover {
