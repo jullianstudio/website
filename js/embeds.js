@@ -35,7 +35,7 @@
     }
     button.querySelector('.embed-title').textContent = title;
     button.querySelector('.embed-note').textContent = note;
-    button.setAttribute('aria-label', title + ' — ' + note);
+    button.setAttribute('aria-label', title + ' - ' + note);
 
     frame.parentNode.replaceChild(button, frame);
     button.addEventListener('click', function () {
