@@ -39,6 +39,7 @@
 
     frame.parentNode.replaceChild(button, frame);
     button.addEventListener('click', function () {
+      if (window.umami) umami.track('embed-play', { provider: host.toLowerCase(), title: title });
       frame.src = host === 'YouTube' ? src.replace('autoplay=0', 'autoplay=1') + (/autoplay=/.test(src) ? '' : (src.indexOf('?') < 0 ? '?' : '&') + 'autoplay=1') : src;
       frame.removeAttribute('data-src');
       button.parentNode.replaceChild(frame, button);
