@@ -1463,6 +1463,11 @@ h2 {
   font-family: Montserrat, sans-serif;
 }
 
+h1.services {
+  font-size: 32px;
+  line-height: 36px;
+}
+
 .typesdeprojets {
   color: #e8e8e8;
   text-align: center;
