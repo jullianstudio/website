@@ -525,6 +525,14 @@ h2 {
   background-color: #0000;
 }
 
+.sociallinkbandcamp {
+  background-color: #fff;
+}
+
+.sociallinkbandcamp.social-icons {
+  background-color: #0000;
+}
+
 .sociallinkyoutubevo {
   background-color: #fff;
 }
